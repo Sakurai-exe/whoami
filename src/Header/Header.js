@@ -2,7 +2,7 @@ import HeaderS from "./Header.module.css";
 import tgLogo from "../LogosSVG/tg.svg";
 import instLogo from "../LogosSVG/inst.svg";
 import vkLogo from "../LogosSVG/vk.svg";
-import phoneLogo from "../LogosSVG/phone.svg";
+// import phoneLogo from "../LogosSVG/phone.svg";
 import gitLogo from "../LogosSVG/github.svg";
 
 function Header() {
@@ -10,31 +10,35 @@ function Header() {
     <div className={HeaderS.Header}>
       <div className={HeaderS.navBar}>
         <div className={HeaderS.navLink}>
-          <a href="#">PLAY MARIO</a>
+          <a href="#">about</a>
         </div>
         <div className={HeaderS.navLink}>
-          <a href="#">SKILLS</a>
+          <a href="#">skills</a>
         </div>
         <div className={HeaderS.navLink}>
-          <a href="#">ABOUT</a>
+          <a href="#">contact</a>
         </div>
       </div>
       <div className={HeaderS.contactDetails}>
         <div className={HeaderS.logo}>
-          <img src={tgLogo} height="40px" />
+          <img src={tgLogo} alt="Telegram" />
         </div>
         <div className={HeaderS.logo}>
-          <img src={instLogo} height="40px" />
+          <img
+            src={instLogo}
+            alt="Instagram"
+            title="Instagram признан на территории РФ экстремистским и запрещен."
+          />
         </div>
         <div className={HeaderS.logo}>
-          <img src={vkLogo} height="40px" />
+          <img src={vkLogo} alt="VK" />
         </div>
         <div className={HeaderS.logo}>
-          <img src={gitLogo} height="40px" />
+          <img src={gitLogo} alt="Github" />
         </div>
-        <div className={HeaderS.logo}>
-          <img src={phoneLogo} height="40px" />
-        </div>
+        {/* <div className={HeaderS.logo}>
+          <img src={phoneLogo} alt="" />
+        </div> */}
       </div>
     </div>
   );

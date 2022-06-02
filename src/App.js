@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './Header/Header';
-import AboutMe from './AboutMe/AboutMe'
+import GreetingS from "./Greetings/Greetings";
 import GotoChat from './GotoChat/GotoChat'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <div className="container">
         <Header />
-        <AboutMe />
+        <GreetingS />
         <GotoChat />
       </div>
     </div>
