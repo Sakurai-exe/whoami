@@ -1,5 +1,4 @@
 import GreetingS from "./Greetings.module.css";
-// import Meme from "./Pics/ModernProblems.jpg"
 
 function Greetings() {
   return (
@@ -10,9 +9,6 @@ function Greetings() {
         Junior <br /> frontend dev
       </div>
       <div className={GreetingS.NearFuture}>in the near future...</div>
-      {/* <div className={`${GreetingS.Meme} ${GreetingS.Animation}`}>
-        <img src={Meme} alt="Meme modern problems" />
-      </div> */}
       <div className={`${GreetingS.Quote} ${GreetingS.Animation}`}>
         Maybe not today, not tomorrow. <br />
         But someday they will put on me the belt of a Senior.

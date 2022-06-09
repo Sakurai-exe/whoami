@@ -1,70 +1,9 @@
 .Header {
     background-color: #fdd538;
     display: flex;
+    position: sticky;
+    height: 100vh;
+    top: 0;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.navBar {
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    height: 400px;
-}
-
-.navLink {
-    display: flex;
-    align-items: center;
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    font-family: sans-serif;
-    font-size: medium;
-    text-transform: uppercase;
-}
-
-.navLink a {
-    position: relative;
-    text-decoration: none;
-    color: black;
-}
-
-.navLink a:after {
-    display: block;
-    position: absolute;
-    top: 30px;
-    width: 0%;
-    left: 50%;
-    height: 2px;
-    background-color: black;
-    content: "";
-    transition: width 0.5s ease-in-out;
-    transform: translateX(-50%);
-}
-
-
-.navLink a:hover:after
-
-/*,
-.navLink a:focus:after */
-    {
-    width: 100%;
-    text-decoration: none;
-}
-
-.contactDetails {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.logo {
-    margin-bottom: 15px;
-}
-
-.logo img {
-    height: 30px;
 }
