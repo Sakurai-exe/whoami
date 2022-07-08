@@ -2,9 +2,9 @@ import "./App.css";
 import Header from "./Header/Header";
 import Greetings from "./Greetings/Greetings";
 import GotoChat from "./GotoChat/GotoChat";
-import About from "./Header/NavBar/About/About";
-import Skills from "./Header/NavBar/Skills/Skills";
-import Contact from "./Header/NavBar/Contact/Contact";
+import About from "./About/About";
+import Skills from "./Skills/Skills";
+import Contact from "./Contact/Contact";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 
 function App() {
@@ -34,3 +34,4 @@ function App() {
 }
 
 export default App;
+

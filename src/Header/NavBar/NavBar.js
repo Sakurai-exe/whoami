@@ -22,7 +22,7 @@ function NavBar() {
             isActive ? NavBarS.active : NavBarS.notActive
           }
         >
-          about
+          About
         </NavLink>
       </div>
       <div className={NavBarS.NavBarLink}>

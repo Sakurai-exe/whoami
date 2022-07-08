@@ -5,8 +5,14 @@
 
 .AboutMe {
     background-color: #121212;
-    padding-top: 100px;
-    padding-left: 120px;
+}
+
+.Wrapper {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
 }
 
 .Hey,
@@ -50,7 +56,7 @@
     }
 }
 
-    /* .Meme img {
+/* .Meme img {
     margin-top: 50px;
     width: 380px;
 }
