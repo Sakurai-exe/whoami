@@ -60,14 +60,14 @@ function About() {
       />
       <div className={AboutS.NamePage}>ABOUT</div>
       <div className={AboutS.Content}>
-        I am sure that I will give all my life to web development. I Never
-        looked for hidden reasons for this decision. I have enough desire and
+        I'm sure that I'll give all my life to web development. I Never
+        looked for hidden reasons for this decision. I've enough desire and
         inspiration, and of course, perseverance.
         <br />
-        If you have these three things, you will definitely reach a high level
+        If you've these three things, you will definitely reach a high level
         in any profession.
         <br />
-        <br /> I think that I will be able to find like-minded people.
+        <br /> I think that I'll be able to find like-minded people.
         <br />
         <br />
         Hobby - Work <br />

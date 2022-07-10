@@ -1,7 +1,7 @@
 import "./App.css";
 import Header from "./Header/Header";
 import Greetings from "./Greetings/Greetings";
-import GotoChat from "./GotoChat/GotoChat";
+import GotoChat from "./GreetingsR/GreetingsR";
 import About from "./About/About";
 import Skills from "./Skills/Skills";
 import Contact from "./Contact/Contact";
