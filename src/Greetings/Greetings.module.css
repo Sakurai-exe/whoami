@@ -19,24 +19,25 @@
 .Profession {
     font-family: 'Bungee Outline', cursive;
     color: white;
-    font-size: 40px;
+    font-size: 4vw;
 }
 
 .MyName {
     font-family: 'Alfa Slab One', cursive;
     color: white;
-    font-size: 70px;
+    font-size: 5vw;
 }
 
 .NearFuture {
     color: white;
-    padding-left: 182px;
+    font-size: 1.5vw;
+    padding-left: 60%;
 }
 
 .Quote {
     font-family: sans-serif;
     color: white;
-    font-size: 25px;
+    font-size: 1.5vw;
     margin-top: 100px;
     width: 380px;
 }

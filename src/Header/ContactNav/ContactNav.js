@@ -3,7 +3,6 @@ import tgLogo from "../ContactNav/LogosSVG/tg.svg";
 import instLogo from "../ContactNav/LogosSVG/inst.svg";
 import vkLogo from "../ContactNav/LogosSVG/vk.svg";
 import gitLogo from "../ContactNav/LogosSVG/github.svg";
-import { Link } from "react-router-dom";
 
 function ContactNav() {
   return (

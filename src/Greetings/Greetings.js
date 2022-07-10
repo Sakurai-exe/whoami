@@ -1,10 +1,20 @@
 import GreetingS from "./Greetings.module.css";
+import { useSpring, animated } from "react-spring";
 
 function Greetings() {
+  const fadeIn = useSpring({
+    config: { mass: 5, tension: 2000, friction: 200 },
+    opacity: 1,
+    height: 80,
+    from: { opacity: 0, height: 0 },
+  });
+
   return (
     <div className={GreetingS.AboutMe}>
       <div className={GreetingS.Wrapper}>
-        <div className={GreetingS.Hey}>Hi there, I'm</div>
+        <animated.div style={fadeIn}>
+          <div className={GreetingS.Hey}>Hi there, I'm</div>
+        </animated.div>
         <div className={GreetingS.MyName}>Denis Kan</div>
         <div className={GreetingS.Profession}>
           Junior <br /> frontend dev
