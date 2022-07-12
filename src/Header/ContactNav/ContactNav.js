@@ -1,8 +1,8 @@
 import ContactNavS from "./ContactNav.module.css";
-import tgLogo from "../ContactNav/LogosSVG/tg.svg";
-import instLogo from "../ContactNav/LogosSVG/inst.svg";
-import vkLogo from "../ContactNav/LogosSVG/vk.svg";
-import gitLogo from "../ContactNav/LogosSVG/github.svg";
+import tgLogo from "../../Images/LogosSVG/tg.svg";
+import instLogo from "../../Images/LogosSVG/inst.svg";
+import vkLogo from "../../Images/LogosSVG/vk.svg";
+import gitLogo from "../../Images/LogosSVG/github.svg";
 
 function ContactNav() {
   return (

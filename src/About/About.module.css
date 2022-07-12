@@ -2,7 +2,7 @@
 
 .About {
     background-color: black;
-    width: calc(100vw - 60px);
+    min-width: calc(100vw - 60px);
     color: #ffffff;
 }
 
@@ -11,8 +11,8 @@
     color: white;
     font-size: 7vw;
     position: absolute;
-    left: 25%;
-    top: 18%;
+    left: 20%;
+    top: 14%;
     transform: translate(-50%, -50%);
     opacity: .3;
 }
@@ -24,7 +24,7 @@
     font-size: 2.4vw;
     width: 60%;
     border: 2px solid #fff;
-    height: 60%;
+    height: 70%;
     position: absolute;
     left: 40%;
     top: 50%;
@@ -35,10 +35,10 @@
 .SpaceMan {
     background-color: none;
         position: absolute;
-            left: 77%;
+            left: 75%;
             top: 20%;
             transform: translate(-50%, -50%);
-                    animation-duration: 2s;
+                    animation-duration: 5s;
                         animation-iteration-count: infinite;
                         transform-origin: bottom;
 }
@@ -53,7 +53,7 @@
             }
     
             50% {
-                transform: translateY(-20px);
+                transform: translateY(-15px);
             }
     
             100% {

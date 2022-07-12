@@ -1,15 +1,19 @@
 import AboutS from "./About.module.css";
 import Particles from "react-particles-js";
 import Spaceman from "../Images/spaceman.png";
+import React, { useEffect } from "react";
 
 function About() {
+  useEffect(() => {
+    document.body.style.overflow = "hidden";
+  }, []);
   return (
     <div className={AboutS.About}>
       <Particles
         params={{
           particles: {
             number: {
-              value: 160,
+              value: 60,
               density: {
                 enable: false,
               },
@@ -60,12 +64,13 @@ function About() {
       />
       <div className={AboutS.NamePage}>ABOUT</div>
       <div className={AboutS.Content}>
-        I'm sure that I'll give all my life to web development. I Never
-        looked for hidden reasons for this decision. I've enough desire and
+        <br />
+        I'm sure that I'll give all my life to web development. I Never looked
+        for hidden reasons for this decision. I've enough desire and
         inspiration, and of course, perseverance.
         <br />
-        If you've these three things, you will definitely reach a high level
-        in any profession.
+        If you've these three things, you will definitely reach a high level in
+        any profession.
         <br />
         <br /> I think that I'll be able to find like-minded people.
         <br />
@@ -74,7 +79,7 @@ function About() {
         Work - Hobby
       </div>
       <div className={`${AboutS.SpaceMan} ${AboutS.bounce}`}>
-        <img src={Spaceman} alt="spaceman" width="80%"/>
+        <img src={Spaceman} alt="spaceman" width="80%" />
       </div>
     </div>
   );

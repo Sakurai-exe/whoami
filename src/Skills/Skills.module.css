@@ -1,0 +1,56 @@
+.Skills {
+    background-color: black;
+    color: #fff;
+    width: calc(100vw - 60px);
+}
+
+.NamePage {
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    font-size: 7vw;
+    position: absolute;
+    left: 83%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    opacity: .3;
+}
+
+.Frontend {
+    left: 30%;
+}
+
+.Backend {
+    left: 75%;
+}
+
+h3 {
+    text-align: center;
+    padding-left: 8%;
+}
+
+.BlockStyles {
+    backdrop-filter: blur(4px);
+    padding: 20px;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 2.4vw;
+    width: 37%;
+    border: 2px solid #fff;
+    height: 75%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.FrontendIcon {
+    position: absolute;
+    left: 36%;
+    top: 13.6%;
+    transform: translate(-50%, -50%);
+}
+
+.BackendIcon {
+    position: absolute;
+    left: 37.8%;
+    top: 13.4%;
+    transform: translate(-50%, -50%);
+}

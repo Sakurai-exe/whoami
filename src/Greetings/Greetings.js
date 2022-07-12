@@ -17,7 +17,8 @@ function Greetings() {
         </animated.div>
         <div className={GreetingS.MyName}>Denis Kan</div>
         <div className={GreetingS.Profession}>
-          Junior <br /> frontend dev
+          Web <br />
+          developer
         </div>
         <div className={GreetingS.NearFuture}>in the near future...</div>
         <div className={`${GreetingS.Quote} ${GreetingS.Animation}`}>
