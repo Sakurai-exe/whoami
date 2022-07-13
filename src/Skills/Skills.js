@@ -36,11 +36,12 @@ function Skills() {
           <FrontendLogo fill="white" width="45px" />
         </div>
         <h3>Frontend</h3>
-        It is very important to make a first impression. A comfortable and
-        beautiful UI is what I love and want to do all my life.
+        It's important to make a first impression. A comfortable and beautiful
+        UI is what I love and want to do this all my life.
         <ul>
           <li>HTML & CSS</li>
           <li>JavaScript</li>
+          <li>TypeScript (coming soon)</li>
           <li>React & Redux</li>
           <li>Vue (coming soon)</li>
         </ul>
@@ -53,7 +54,7 @@ function Skills() {
         Don't judge a book by its cover. Therefore, it is very important to have
         a fast, safe and functional backend.
         <ul>
-          <li>Java (my first language)</li>
+          <li>Java (my first technology)</li>
           <li>SQL: MySQL/PostgreSQL</li>
           <li>Node.js (coming soon)</li>
         </ul>
