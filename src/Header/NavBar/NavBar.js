@@ -6,7 +6,7 @@ function NavBar() {
     <div className={NavBarS.NavBar}>
       <div className={NavBarS.NavBarLink}>
         <NavLink
-          to="/Greetings/Greetings"
+          to="/Greetings/Hello"
           className={({ isActive }) =>
             isActive ? NavBarS.active : NavBarS.notActive
           }

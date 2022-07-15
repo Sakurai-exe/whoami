@@ -1,7 +1,7 @@
-import GreetingS from "./Greetings.module.css";
+import HelloS from "./HelloS.module.css";
 import { useSpring, animated } from "react-spring";
 
-function Greetings() {
+function Hello() {
   const fadeIn = useSpring({
     config: { mass: 5, tension: 2000, friction: 200 },
     opacity: 1,
@@ -10,18 +10,18 @@ function Greetings() {
   });
 
   return (
-    <div className={GreetingS.AboutMe}>
-      <div className={GreetingS.Wrapper}>
+    <div className={HelloS.AboutMe}>
+      <div className={HelloS.Wrapper}>
         <animated.div style={fadeIn}>
-          <div className={GreetingS.Hey}>Hi there, I'm</div>
+          <div className={HelloS.Hey}>Hi there, I'm</div>
         </animated.div>
-        <div className={GreetingS.MyName}>Denis Kan</div>
-        <div className={GreetingS.Profession}>
+        <div className={HelloS.MyName}>Denis Kan</div>
+        <div className={HelloS.Profession}>
           Web <br />
           developer
         </div>
-        <div className={GreetingS.NearFuture}>in the near future...</div>
-        <div className={`${GreetingS.Quote} ${GreetingS.Animation}`}>
+        <div className={HelloS.NearFuture}>in the near future...</div>
+        <div className={`${HelloS.Quote} ${HelloS.Animation}`}>
           Maybe not today, not tomorrow. <br />
           But someday I'll become a cool Senior developer.
         </div>
@@ -30,4 +30,4 @@ function Greetings() {
   );
 }
 
-export default Greetings;
+export default Hello;
