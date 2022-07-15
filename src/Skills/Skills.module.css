@@ -10,7 +10,7 @@
     font-size: 7vw;
     position: absolute;
     left: 83%;
-    top: 90%;
+        top: 90%;
     transform: translate(-50%, -50%);
     opacity: .3;
 }
@@ -32,7 +32,7 @@ h3 {
     backdrop-filter: blur(4px);
     padding: 20px;
     font-family: 'Edu SA Beginner', cursive;
-    font-size: 2.4vw;
+    font-size: 2vw;
     width: 37%;
     border: 2px solid #fff;
     height: 75%;
@@ -43,14 +43,14 @@ h3 {
 
 .FrontendIcon {
     position: absolute;
-    left: 36%;
-    top: 13.6%;
+    left: 38%;
+        top: 14%;
     transform: translate(-50%, -50%);
 }
 
 .BackendIcon {
     position: absolute;
-    left: 37.8%;
-    top: 13.4%;
+    left: 39.5%;
+        top: 14%;
     transform: translate(-50%, -50%);
 }

@@ -20,11 +20,9 @@
 }
 
 .active {
-    /* text-shadow: whitesmoke 1px 0 10px !important; */
-    text-decoration: none;
-    text-decoration: underline !important;
+    text-decoration: underline;
     text-underline-offset: 14px;
-    text-decoration-thickness: 2px !important;
+    text-decoration-thickness: 2px;
 }
 
 .notActive {
@@ -33,7 +31,7 @@
 
 .NavBarLink a {
     position: relative;
-    text-decoration: none;
+    /* text-decoration: none; */
     color: black;
 }
 
