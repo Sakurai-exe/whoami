@@ -33,7 +33,7 @@ function Skills() {
       <div className={SkillsS.NamePage}>SKILLS</div>
       <div className={`${SkillsS.Frontend} ${SkillsS.BlockStyles}`}>
         <div className={SkillsS.FrontendIcon}>
-          <FrontendLogo fill="white" width="45px" />
+          <FrontendLogo fill="white" height="2vw" />
         </div>
         <h3>Frontend</h3>
         It's important to make a first impression. A comfortable and beautiful
@@ -48,7 +48,7 @@ function Skills() {
       </div>
       <div className={`${SkillsS.Backend} ${SkillsS.BlockStyles}`}>
         <div className={SkillsS.BackendIcon}>
-          <BackendLogo fill="white" width="35px" />
+          <BackendLogo fill="white" height="2vw" />
         </div>
         <h3>Backend</h3>
         Don't judge a book by its cover. Therefore, it is very important to have

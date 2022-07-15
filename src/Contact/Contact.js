@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import ContactS from "./Contact.module.css";
+import BusinnessCard from "../BusinnessCard/BusinnessCard";
 import emailjs from "emailjs-com";
 
 function Contact() {
@@ -42,6 +43,7 @@ function Contact() {
         <textarea required placeholder="Message" name="message" />
         <input className={ContactS.FormButton} type="submit" value="Send" />
       </form>
+      <div className={ContactS.BusinnessCard}><BusinnessCard /></div>
     </div>
   );
 }
