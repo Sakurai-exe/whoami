@@ -1,12 +1,12 @@
 import "./App.css";
 import Header from "./Header/Header";
 import Hello from "./Greetings/Hello";
-import GotoChat from "./GreetingsR/GreetingsR";
 import About from "./About/About";
 import Skills from "./Skills/Skills";
 import Contact from "./Contact/Contact";
 import { Route, Routes, Navigate } from "react-router-dom";
 import MetaTags from "react-meta-tags";
+import GreetingsR from "./GreetingsR/GreetingsR";
 
 function App() {
   return (
@@ -19,8 +19,9 @@ function App() {
       <div className="container">
         <Header />
         <Routes>
-          <Route path="/" element={<Navigate replace to="/Hello" />} />
-          <Route path="/Hello" element={[<Hello />, <GotoChat />]} />
+          <Route exact path="/" element={<Navigate replace to="/Hello" />} />
+          {/* <Route path="/" element={[<Hello />, <GreetingsR />]} /> */}
+          <Route path="/Hello" element={[<Hello />, <GreetingsR />]} />
           <Route path="/About" element={<About />} />
           <Route path="/Skills" element={<Skills />} />
           <Route path="/Contact" element={<Contact />} />
