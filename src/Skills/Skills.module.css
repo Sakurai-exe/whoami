@@ -10,11 +10,7 @@
     font-size: 7vw;
     position: absolute;
     left: 83%;
-<<<<<<< HEAD
-        top: 90%;
-=======
     top: 90%;
->>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
     transform: translate(-50%, -50%);
     opacity: .3;
 }
@@ -29,10 +25,6 @@
 
 h3 {
     text-align: center;
-<<<<<<< HEAD
-    padding-left: 8%;
-=======
->>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
 }
 
 .BlockStyles {
@@ -48,20 +40,6 @@ h3 {
     transform: translate(-50%, -50%);
 }
 
-<<<<<<< HEAD
-.FrontendIcon {
-    position: absolute;
-    left: 38%;
-        top: 14%;
-    transform: translate(-50%, -50%);
-}
-
-.BackendIcon {
-    position: absolute;
-    left: 39.5%;
-        top: 14%;
-    transform: translate(-50%, -50%);
-=======
 
 
 @media screen and (max-width: 1024px) {
@@ -97,6 +75,4 @@ h3 {
         top: 50%;
         transform: translate(-50%, -50%);
     }
-
->>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
 }

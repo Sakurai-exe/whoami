@@ -10,8 +10,6 @@
 
 .logo img {
     height: 30px;
-<<<<<<< HEAD
-=======
 }
 
 @media screen and (max-width: 1024px) {
@@ -25,5 +23,4 @@
         .logo {
             margin-bottom: 0px;
         }
->>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
 }

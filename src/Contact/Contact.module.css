@@ -4,20 +4,11 @@
     width: calc(100vw - 60px);
 }
 
-<<<<<<< HEAD
-.Content {
-    position: absolute;
-    left: 27%;
-    top: 20%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-=======
 .Wrapper {
     position: absolute;
     left: 30%;
     top: 45%;
     transform: translate(-50%, -50%);
->>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
 }
 
 h2 {
@@ -26,7 +17,8 @@ h2 {
     font-size: 4vw;
 }
 
-.Content p {
+
+ .Wrapper p {
     font-family: 'Edu SA Beginner', cursive;
     font-size: 2vw;
 }
@@ -36,22 +28,13 @@ h2 {
 }
 
 form {
-<<<<<<< HEAD
-    position: absolute;
     font-size: 1vw;
-    left: 30.5%;
-    top: 65%;
-    transform: translate(-50%, -50%);
     background: #121212;
     margin-top: 1vw;
     width: 40vw;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1vw;
 }
 
 form input {
-=======
     font-size: large;
     background: #121212;
     width: 40vw;
@@ -61,12 +44,10 @@ form input:not(.FormButton) {
     width: 100%;
     font-family: sans-serif;
     font-size: 1.5vw;
->>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
     color: white;
     height: 3vw;
     margin-bottom: 1vw;
     background: #2b2b2b;
-<<<<<<< HEAD
     border: 1px solid #121212;
 }
 
@@ -77,7 +58,6 @@ textarea {
     background: #2b2b2b;
 
     margin-bottom: 0.5vw;
-=======
     margin-bottom: 0.5vw;
     border: 1px solid #2b2b2b;
     border-radius: 10px 10px 10px 10px;
@@ -93,16 +73,8 @@ textarea {
     resize: none;
     margin-bottom: 0.5vw;
     margin-top: 0.3vw;
->>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
     border: 1px solid #2b2b2b;
     border-radius: 10px 10px 10px 10px;
-}
-
-<<<<<<< HEAD
-textarea {
-    color: white;
-    height: 12vw;
-    resize: none;
 }
 
 
@@ -111,36 +83,13 @@ textarea:focus {
     outline: 1px solid #c471ed;
 }
 
-.FormButton {
-    /* background-image: linear-gradient(
-        #f64f59,
-        #c471ed,
-        #12c2e9);
-        box-shadow: 5px 5px 25px 0px rgba(225, 48, 139, 0.5);
-    background-size: 0;
-    transition: 2s;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66); */
-/* border-image-slice: 1; */
-    border-image-source: linear-gradient(var(--angle), #f64f59, #c471ed, #12c2e9);
-
-    background-color: #2B2B2B;
-    box-shadow: 5px 5px 25px 0px rgba(225, 48, 139, 0.5);
-    animation: 10s spin linear infinite;
-}
-
-.FormButton:hover {
-    background-size: 100%;
-    color: #fff;
-}
 
 .BusinnessCard {
     position: absolute;
     left: 75%;
     top: 40%;
-    transform: translate(-50%, -50%);
-=======
+    transform: translate(-50%, -50%);}
+
 ::-moz-placeholder {
     color: white;
 }
@@ -201,7 +150,7 @@ h2 {
     font-size: 5vw;
 }
 
-.Content p {
+.Wrapper p {
     font-size: 2.5vw;
 }
 
@@ -227,5 +176,4 @@ textarea {
     left: 77%;
     top: 40%;
 }
->>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
 }

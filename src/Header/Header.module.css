@@ -5,10 +5,7 @@
     height: 100vh;
     top: 0;
     flex-direction: column;
-    justify-content: space-between;
-<<<<<<< HEAD
-=======
-}
+    justify-content: space-between;}
 
 @media screen and (max-width: 1024px) {
 .Header {
@@ -17,5 +14,4 @@
     height: 60px;
     width: 100vw;
 }
->>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
 }

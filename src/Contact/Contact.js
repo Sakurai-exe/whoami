@@ -8,7 +8,6 @@ function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         "service_8px4lda",
@@ -25,39 +24,17 @@ function Contact() {
         }
       );
     e.target.reset();
-<<<<<<< HEAD
-=======
     alert("Thank you!");
->>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
   };
 
   return (
     <div className={ContactS.Contact}>
-<<<<<<< HEAD
-      <div className={ContactS.Content}>
-        <h2>Contact me</h2>
-        <p>
-          If you have other request or question, don’t <br />
-          hesitate to use the form.
-        </p>
-      </div>
-      <form ref={form} onSubmit={sendEmail}>
-        <input type="text" required placeholder="Name" name="name" />
-        <input type="email" required placeholder="Email" name="email" />
-        <input type="text" required placeholder="Subject" name="subject" />
-        <textarea required placeholder="Message" name="message" />
-        <input className={ContactS.FormButton} type="submit" value="Send" />
-      </form>
-      <div className={ContactS.BusinnessCard}><BusinnessCard /></div>
-=======
       <div className={ContactS.Wrapper}>
-        <div className={ContactS.Content}>
           <h2>Contact me</h2>
           <p>
             If you have other request or question, don’t <br />
             hesitate to use the form.
           </p>
-        </div>
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" required placeholder="Name" name="name" />
           <input type="email" required placeholder="Email" name="email" />
@@ -69,7 +46,6 @@ function Contact() {
       <div className={ContactS.BusinnessCardWrap}>
         <BusinnessCard />
       </div>
->>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
     </div>
   );
 }
