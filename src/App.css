@@ -3,5 +3,16 @@
   display: grid;
   grid-template-columns: 60px 1fr 1fr;
   justify-content: center;
+<<<<<<< HEAD
   min-height: 100vh;
 }
+=======
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 100vw;
+    grid-template-columns: 0px 1fr 1fr;
+  }
+}
+>>>>>>> 27c4700 (adaptive for 1024 or ipad pro)

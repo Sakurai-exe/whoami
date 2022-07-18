@@ -10,7 +10,11 @@
     font-size: 7vw;
     position: absolute;
     left: 83%;
+<<<<<<< HEAD
         top: 90%;
+=======
+    top: 90%;
+>>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
     transform: translate(-50%, -50%);
     opacity: .3;
 }
@@ -25,7 +29,10 @@
 
 h3 {
     text-align: center;
+<<<<<<< HEAD
     padding-left: 8%;
+=======
+>>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
 }
 
 .BlockStyles {
@@ -41,6 +48,7 @@ h3 {
     transform: translate(-50%, -50%);
 }
 
+<<<<<<< HEAD
 .FrontendIcon {
     position: absolute;
     left: 38%;
@@ -53,4 +61,42 @@ h3 {
     left: 39.5%;
         top: 14%;
     transform: translate(-50%, -50%);
+=======
+
+
+@media screen and (max-width: 1024px) {
+    .Skills {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .NamePage {
+        left: 80%;
+        top: 80%;
+    }
+
+    .Frontend {
+        left: 27%;
+    }
+
+    .Backend {
+        left: 72%;
+    }
+
+
+
+    .BlockStyles {
+        backdrop-filter: blur(4px);
+        padding: 20px;
+        font-family: 'Edu SA Beginner', cursive;
+        font-size: 2.5vw;
+        width: 37%;
+        border: 2px solid #fff;
+        height: 60%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+>>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
 }

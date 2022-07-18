@@ -10,4 +10,20 @@
 
 .logo img {
     height: 30px;
+<<<<<<< HEAD
+=======
+}
+
+@media screen and (max-width: 1024px) {
+    .ContactNav {
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 200px;
+        margin-right: 40px;
+    }
+        .logo {
+            margin-bottom: 0px;
+        }
+>>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
 }

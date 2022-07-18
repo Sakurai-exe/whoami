@@ -10,7 +10,11 @@ function Hello() {
   });
 
   return (
+<<<<<<< HEAD
     <div className={HelloS.AboutMe}>
+=======
+    <div className={HelloS.Hello}>
+>>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
       <div className={HelloS.Wrapper}>
         <animated.div style={fadeIn}>
           <div className={HelloS.Hey}>Hi there, I'm</div>

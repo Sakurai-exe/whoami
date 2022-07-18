@@ -12,7 +12,11 @@
     font-size: 7vw;
     position: absolute;
     left: 24%;
+<<<<<<< HEAD
         top: 13%;
+=======
+    top: 13%;
+>>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
     transform: translate(-50%, -50%);
     opacity: .3;
 }
@@ -34,6 +38,7 @@
 
 .SpaceMan {
     background-color: none;
+<<<<<<< HEAD
         position: absolute;
             left: 75%;
             top: 20%;
@@ -60,3 +65,58 @@
                 transform: translateY(0);
             }
         }
+=======
+    position: absolute;
+    left: 75%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+
+.bounce {
+    animation-name: bounce;
+    animation-timing-function: linear;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 1024px){
+.About {
+        background-color: black;
+        width: 100vw;
+        height: 100vh;
+        color: #ffffff;
+    }
+        .NamePage {
+            left: 19%;
+            top: 28%;
+        }
+        .Content {
+            width: 55%;
+            height: 55%;
+            left: 35%;
+                top: 55%;
+                font-size: 2.5vw;
+                padding-top: 4.5vh;
+        }
+                .SpaceMan {
+                    left: 67%;
+                        top: 30%;
+                }
+
+}
+>>>>>>> 27c4700 (adaptive for 1024 or ipad pro)

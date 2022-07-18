@@ -25,4 +25,14 @@
     100% {
         opacity: 1;
     }
+<<<<<<< HEAD
+=======
+}
+
+@media screen and (max-width: 1024px) {
+    .GreetingsR {
+        height: 100vh;
+        background-color: #121212;
+    }
+>>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
 }

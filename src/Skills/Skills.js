@@ -1,7 +1,10 @@
 import SkillsS from "./Skills.module.css";
 import Particles from "react-particles-js";
+<<<<<<< HEAD
 import { ReactComponent as FrontendLogo } from "../Images/LogosSVG/frontend.svg";
 import { ReactComponent as BackendLogo } from "../Images/LogosSVG/backend.svg";
+=======
+>>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
 import React, { useEffect } from "react";
 
 function Skills() {
@@ -32,9 +35,12 @@ function Skills() {
       />
       <div className={SkillsS.NamePage}>SKILLS</div>
       <div className={`${SkillsS.Frontend} ${SkillsS.BlockStyles}`}>
+<<<<<<< HEAD
         <div className={SkillsS.FrontendIcon}>
           <FrontendLogo fill="white" height="2vw" />
         </div>
+=======
+>>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
         <h3>Frontend</h3>
         It's important to make a first impression. A comfortable and beautiful
         UI is what I love and want to do this all my life.
@@ -47,9 +53,12 @@ function Skills() {
         </ul>
       </div>
       <div className={`${SkillsS.Backend} ${SkillsS.BlockStyles}`}>
+<<<<<<< HEAD
         <div className={SkillsS.BackendIcon}>
           <BackendLogo fill="white" height="2vw" />
         </div>
+=======
+>>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
         <h3>Backend</h3>
         Don't judge a book by its cover. Therefore, it is very important to have
         a fast, safe and functional backend.

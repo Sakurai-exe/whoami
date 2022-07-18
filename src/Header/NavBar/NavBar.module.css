@@ -1,5 +1,10 @@
 .NavBar {
+<<<<<<< HEAD
     font-weight: bold;
+=======
+    font-weight: 500;
+    margin-top: 15px;
+>>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,23 +25,39 @@
 }
 
 .active {
+<<<<<<< HEAD
     text-decoration: underline;
     text-underline-offset: 14px;
     text-decoration-thickness: 2px;
+=======
+    text-decoration: none;
+    font-weight: 700;
+>>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
 }
 
 .notActive {
     text-decoration: none;
+<<<<<<< HEAD
+=======
+    font-weight: 500;
+>>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
 }
 
 .NavBarLink a {
     position: relative;
+<<<<<<< HEAD
     /* text-decoration: none; */
     color: black;
 }
 
 /* Подчеркивание с анимацией (опционально)*/
 /* .NavBarLink a:not(.active):after {
+=======
+    color: black;
+}
+
+.NavBarLink a:not(.active):after {
+>>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
     display: block;
     position: absolute;
     top: 30px;
@@ -47,6 +68,7 @@
     content: "";
     transition: width 0.2s ease-in-out;
     transform: translateX(-50%);
+<<<<<<< HEAD
 } */
 
 
@@ -54,3 +76,37 @@
     width: 100%;
     text-decoration: none;
 } */
+=======
+}
+
+
+.NavBarLink a:hover:after {
+    width: 100%;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .NavBar {
+        display: flex;
+        align-items: center;
+        justify-content:baseline;
+        flex-direction: row;
+        position: relative;
+        height: 60px;
+        width: 400px;
+        margin-top: 0px;
+        margin-left: 40px;
+    }
+
+    .NavBarLink {
+        display: block;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        font-family: sans-serif;
+        font-size: medium;
+        text-transform: uppercase;
+    }
+}
+>>>>>>> 27c4700 (adaptive for 1024 or ipad pro)

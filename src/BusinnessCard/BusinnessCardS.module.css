@@ -19,8 +19,13 @@
 
 .businesscardWrapper {
     position: relative;
+<<<<<<< HEAD
     height: 320px;
     width: 427px;
+=======
+    height: 20vw;
+    width: 30vw;
+>>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
     color: #121212;
     text-transform: uppercase;
     margin-left: auto;
@@ -37,9 +42,15 @@
 
 .front,
 .back {
+<<<<<<< HEAD
     height: 320px;
     box-shadow: 0px 0px 43px -10px #121212;
     width: 427px;
+=======
+    height: 20vw;
+    box-shadow: 0px 0px 43px -10px #121212;
+    width: 30vw;
+>>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -51,7 +62,10 @@
 
 .front {
     background-color: rgba(43, 43, 43, 1);
+<<<<<<< HEAD
     backdrop-filter: blur(4px);
+=======
+>>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
     color: #0fffc1;
     animation: textColor 5s ease infinite;
 }
@@ -63,6 +77,10 @@
     font-size: 1.2vw;
     padding: auto;
     text-align: center;
+<<<<<<< HEAD
+=======
+    padding-top: 3vh;
+>>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
 }
 
 hr {
@@ -95,4 +113,13 @@ p {
     100% {
         color: #c471ed;
     }
+<<<<<<< HEAD
+=======
+}
+
+@media screen and (max-width: 1024px) {
+.back {
+    padding-top: 3vh;
+}
+>>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
 }

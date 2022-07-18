@@ -3,14 +3,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
 
 
+<<<<<<< HEAD
 .AboutMe {
+=======
+.Hello {
+>>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
     background-color: #121212;
 }
 
 .Wrapper {
     position: absolute;
     left: 25%;
+<<<<<<< HEAD
         top: 50%;
+=======
+    top: 50%;
+>>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
     transform: translate(-50%, -50%);
     padding: 10px;
 }
@@ -58,6 +66,7 @@
     }
 }
 
+<<<<<<< HEAD
 /* .Meme img {
     margin-top: 50px;
     width: 380px;
@@ -77,3 +86,32 @@
         opacity: 1;
     }
 } */
+=======
+@media screen and (max-width: 1024px) {
+    .Hello {
+        background-color: #121212;
+        height: 100vh;
+    }
+
+    .Wrapper {
+        left: 32%;
+        top: 50%;
+    }
+
+    .Hey,
+    .Profession {
+        font-size: 6vw;
+    }
+
+    .MyName {font-size: 7vw;}
+
+    .NearFuture {
+        font-size: 2vw;
+            padding-left: 47%;
+    }
+
+    .Quote {
+        font-size: 2vw;
+    }
+}
+>>>>>>> 27c4700 (adaptive for 1024 or ipad pro)
