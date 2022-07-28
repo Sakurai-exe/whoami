@@ -148,6 +148,7 @@
         height: 55%;
         left: 50%;
         top: 37.5%;
+<<<<<<< HEAD
         font-size: 4.5vw;
         padding-top: 4.5vh;
     }
@@ -156,4 +157,17 @@
         left: 30%;
         top: 50%;
     }
+=======
+        font-size: 4vw;
+        padding-top: 4vh;
+    }
+
+    .SpaceMan {
+        left: 40%;
+        top: 48%;
+    }
+                .SpaceMan img{
+                    width: 75%;
+                }
+>>>>>>> f6c62a5 (Fix 300 bugs))
 }

@@ -96,8 +96,13 @@
 
     .Wrapper {
         max-width: 300px;
+<<<<<<< HEAD
         left: 58%;
         top: 30%;
+=======
+        left: 50%;
+        top: 35%;
+>>>>>>> f6c62a5 (Fix 300 bugs))
     }
 
     .Hey,

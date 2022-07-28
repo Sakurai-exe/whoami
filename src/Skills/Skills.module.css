@@ -92,7 +92,11 @@ h3 {
         backdrop-filter: blur(2px);
         width: 80%;
         height: 40%;
+<<<<<<< HEAD
         font-size: 4.5vw;
+=======
+        font-size: 4vw;
+>>>>>>> f6c62a5 (Fix 300 bugs))
     }
 
     .Frontend {

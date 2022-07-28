@@ -36,8 +36,12 @@ function Skills() {
         UI is what I love and want to do this all my life.
         <ul>
           <li>HTML & CSS</li>
+<<<<<<< HEAD
           <li>JavaScript</li>
           <li>TypeScript (coming soon)</li>
+=======
+          <li>JavaScript/TypeScript</li>
+>>>>>>> f6c62a5 (Fix 300 bugs))
           <li>React & Redux</li>
           <li>Vue (coming soon)</li>
         </ul>

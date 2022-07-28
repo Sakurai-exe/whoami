@@ -37,15 +37,25 @@
 
 @media screen and (max-width: 500px) {
     .profileImg {
+<<<<<<< HEAD
         width: 75%;
         left: 50%;
         top: 75%;
+=======
+        width: 60%;
+        left: 50%;
+        top: 80%;
+>>>>>>> f6c62a5 (Fix 300 bugs))
     }
 }
 
 @media screen and (max-width: 360px) {
     .profileImg {
+<<<<<<< HEAD
         width: 75%;
+=======
+        width: 50%;
+>>>>>>> f6c62a5 (Fix 300 bugs))
         left: 50%;
         top: 75%;
     }

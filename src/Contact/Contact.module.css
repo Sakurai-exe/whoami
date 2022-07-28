@@ -134,6 +134,13 @@ textarea:focus {
     transform: translate(-50%, -50%);
 }
 
+<<<<<<< HEAD
+=======
+.MobileVisitCard {
+    display: none;
+}
+
+>>>>>>> f6c62a5 (Fix 300 bugs))
 @media screen and (max-width: 1024px) {
     .BusinnessCardWrap {
         top: 40%;
@@ -198,7 +205,11 @@ textarea:focus {
 
     .Contact {
         width: 100vw;
+<<<<<<< HEAD
         height: 100vh;
+=======
+        min-height: 700px;
+>>>>>>> f6c62a5 (Fix 300 bugs))
     }
 
     .Wrapper {
@@ -234,6 +245,10 @@ textarea:focus {
     .FormButton {
         margin-top: 1vw;
         height: 7vw;
+<<<<<<< HEAD
+=======
+        margin-bottom: 30px;
+>>>>>>> f6c62a5 (Fix 300 bugs))
     }
 
     .MobileVisitCard {
@@ -242,9 +257,14 @@ textarea:focus {
         top: 60%;
         left: 7.5%;
         width: 85vw;
+<<<<<<< HEAD
         height: 200px;
         background-color: rgba(43, 43, 43, 1);
         /* backdrop-filter: blur(4px); */
+=======
+        height: 33vh;
+        background-color: rgba(43, 43, 43, 1);
+>>>>>>> f6c62a5 (Fix 300 bugs))
         color: #0fffc1;
         animation: textColor 5s ease infinite;
     }
@@ -263,6 +283,10 @@ textarea:focus {
         display: flex;
         flex-direction: row;
         align-items: center;
+<<<<<<< HEAD
+=======
+        padding-top: 8%;
+>>>>>>> f6c62a5 (Fix 300 bugs))
         padding-left: 43%;
     }
 
@@ -287,4 +311,13 @@ textarea:focus {
             color: #c471ed;
         }
     }
+<<<<<<< HEAD
+=======
+}
+
+@media screen and (max-height: 600px) {
+    .MobileVisitCard {
+            display: none;
+        }
+>>>>>>> f6c62a5 (Fix 300 bugs))
 }
