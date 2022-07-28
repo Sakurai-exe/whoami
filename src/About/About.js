@@ -10,6 +10,7 @@ function About() {
   return (
     <div className={AboutS.About}>
       <Particles
+        className={AboutS.Particles}
         params={{
           particles: {
             number: {

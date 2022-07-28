@@ -4,6 +4,11 @@
     width: calc(100vw - 60px);
 }
 
+.Particles {
+    width: 100vw;
+    height: 100vh;
+}
+
 .NamePage {
     font-family: 'Alfa Slab One', cursive;
     color: white;
@@ -75,4 +80,29 @@ h3 {
         top: 50%;
         transform: translate(-50%, -50%);
     }
+}
+
+@media screen and (max-width: 500px) {
+    .NamePage {
+        left: 80%;
+        top: 95%;
+    }
+
+    .BlockStyles {
+        backdrop-filter: blur(2px);
+        width: 80%;
+        height: 40%;
+        font-size: 4.5vw;
+    }
+
+    .Frontend {
+        top: 31%;
+        left: 50%;
+    }
+
+    .Backend {
+        top: 75%;
+        left: 50%;
+    }
+
 }

@@ -7,8 +7,12 @@ import Contact from "./Contact/Contact";
 import { Route, Routes, Navigate } from "react-router-dom";
 import MetaTags from "react-meta-tags";
 import GreetingsR from "./GreetingsR/GreetingsR";
+import React, { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    document.body.style.overflow = "hidden";
+  }, []);
   return (
     <div className="App">
       <MetaTags>

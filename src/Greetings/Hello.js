@@ -11,7 +11,6 @@ function Hello() {
 
   return (
     <div className={HelloS.Hello}>
-
       <div className={HelloS.Wrapper}>
         <animated.div style={fadeIn}>
           <div className={HelloS.Hey}>Hi there, I'm</div>
@@ -24,7 +23,8 @@ function Hello() {
         <div className={HelloS.NearFuture}>in the near future...</div>
         <div className={`${HelloS.Quote} ${HelloS.Animation}`}>
           Maybe not today, not tomorrow. <br />
-          But someday I'll become a cool Senior developer.
+          But someday I'll become a cool <br />
+          Senior developer.
         </div>
       </div>
     </div>

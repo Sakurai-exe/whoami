@@ -104,12 +104,13 @@ img {
 }
 
 @media screen and (max-width: 1024px) {
-.back {
-    font-size: 1vw;
-    padding-top: 3vh;
-}
-p {
-    font-size: 1.2vw;
-    font-weight: 700;
-}
+    .back {
+        font-size: 1vw;
+        padding-top: 3vh;
+    }
+
+    p {
+        font-size: 1.2vw;
+        font-weight: 700;
+    }
 }

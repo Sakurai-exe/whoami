@@ -58,7 +58,7 @@
     .NavBar {
         display: flex;
         align-items: center;
-        justify-content:baseline;
+        justify-content: baseline;
         flex-direction: row;
         position: relative;
         height: 60px;
@@ -79,3 +79,8 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    .NavBar {
+        display: none;
+    }
+}

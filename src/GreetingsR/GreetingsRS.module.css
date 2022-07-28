@@ -34,3 +34,19 @@
         background-color: #121212;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .profileImg {
+        width: 75%;
+        left: 50%;
+        top: 75%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .profileImg {
+        width: 75%;
+        left: 50%;
+        top: 75%;
+    }
+}

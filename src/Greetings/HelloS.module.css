@@ -74,14 +74,76 @@
         font-size: 6vw;
     }
 
-    .MyName {font-size: 7vw;}
+    .MyName {
+        font-size: 7vw;
+    }
 
     .NearFuture {
         font-size: 2vw;
-            padding-left: 47%;
+        padding-left: 47%;
     }
 
     .Quote {
         font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Hello {
+        background-color: #121212;
+        height: 100vh;
+    }
+
+    .Wrapper {
+        max-width: 300px;
+        left: 58%;
+        top: 30%;
+    }
+
+    .Hey,
+    .Profession {
+        font-size: 7vw;
+    }
+
+    .MyName {
+        font-size: 8vw;
+    }
+
+    .NearFuture {
+        font-size: 4vw;
+        padding-left: 16%;
+    }
+
+    .Quote {
+        margin-top: 50px;
+        font-size: 4vw;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .Wrapper {
+        max-width: 300px;
+        left: 60%;
+        top: 33%;
+    }
+
+    .Hey,
+    .Profession {
+        font-size: 7vw;
+    }
+
+    .MyName {
+        font-size: 8vw;
+    }
+
+    .NearFuture {
+        font-size: 4vw;
+        padding-left: 16%;
+    }
+
+    .Quote {
+        margin-top: 50px;
+        font-size: 4vw;
     }
 }

@@ -9,6 +9,7 @@ function Skills() {
   return (
     <div className={SkillsS.Skills}>
       <Particles
+        className={SkillsS.Particles}
         params={{
           particles: {
             number: {
