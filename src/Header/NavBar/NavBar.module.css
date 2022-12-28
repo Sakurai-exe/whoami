@@ -1,0 +1,86 @@
+.NavBar {
+    font-weight: 500;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 55%;
+}
+
+.NavBarLink {
+    display: flex;
+    align-items: center;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    font-family: sans-serif;
+    font-size: medium;
+    text-transform: uppercase;
+}
+
+.active {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.notActive {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.NavBarLink a {
+    position: relative;
+    color: black;
+}
+
+.NavBarLink a:not(.active):after {
+    display: block;
+    position: absolute;
+    top: 30px;
+    width: 0%;
+    left: 50%;
+    height: 2px;
+    background-color: black;
+    content: "";
+    transition: width 0.2s ease-in-out;
+    transform: translateX(-50%);
+}
+
+
+.NavBarLink a:hover:after {
+    width: 100%;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .NavBar {
+        display: flex;
+        align-items: center;
+        justify-content: baseline;
+        flex-direction: row;
+        position: relative;
+        height: 60px;
+        width: 400px;
+        margin-top: 0px;
+        margin-left: 40px;
+    }
+
+    .NavBarLink {
+        display: block;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        font-family: sans-serif;
+        font-size: medium;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .NavBar {
+        display: none;
+    }
+}

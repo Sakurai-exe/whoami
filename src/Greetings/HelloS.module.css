@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+
+
+.Hello {
+    background-color: #121212;
+}
+
+.Wrapper {
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.Hey,
+.Profession {
+    font-family: 'Bungee Outline', cursive;
+    color: white;
+    font-size: 4vw;
+}
+
+.MyName {
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    font-size: 5vw;
+}
+
+.NearFuture {
+    color: white;
+    font-size: 1.5vw;
+    padding-left: 44%;
+    opacity: .3;
+}
+
+.Quote {
+    font-family: sans-serif;
+    color: white;
+    font-size: 1.5vw;
+    margin-top: 100px;
+    width: 380px;
+}
+
+.Animation {
+    opacity: 0;
+    animation: ani 5s forwards 2s;
+}
+
+@keyframes ani {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .Hello {
+        background-color: #121212;
+        height: 100vh;
+    }
+
+    .Wrapper {
+        left: 32%;
+        top: 50%;
+    }
+
+    .Hey,
+    .Profession {
+        font-size: 6vw;
+    }
+
+    .MyName {
+        font-size: 7vw;
+    }
+
+    .NearFuture {
+        font-size: 2vw;
+        padding-left: 47%;
+    }
+
+    .Quote {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Hello {
+        background-color: #121212;
+        height: 100vh;
+    }
+
+    .Wrapper {
+        max-width: 300px;
+        left: 58%;
+        top: 30%;
+        left: 50%;
+        top: 35%;
+    }
+
+    .Hey,
+    .Profession {
+        font-size: 7vw;
+    }
+
+    .MyName {
+        font-size: 8vw;
+    }
+
+    .NearFuture {
+        font-size: 4vw;
+        padding-left: 16%;
+    }
+
+    .Quote {
+        margin-top: 50px;
+        font-size: 4vw;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .Wrapper {
+        max-width: 300px;
+        left: 60%;
+        top: 33%;
+    }
+
+    .Hey,
+    .Profession {
+        font-size: 7vw;
+    }
+
+    .MyName {
+        font-size: 8vw;
+    }
+
+    .NearFuture {
+        font-size: 4vw;
+        padding-left: 16%;
+    }
+
+    .Quote {
+        margin-top: 50px;
+        font-size: 4vw;
+    }
+}

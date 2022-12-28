@@ -1,0 +1,27 @@
+.Header {
+    background-color: #fdd538;
+    display: flex;
+    position: sticky;
+    height: 100vh;
+    top: 0;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+    .Header {
+        flex-direction: row;
+        position: relative;
+        height: 60px;
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Header {
+        flex-direction: row;
+        position: relative;
+        height: 50px;
+        width: 100vw;
+    }
+}

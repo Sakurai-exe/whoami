@@ -1,0 +1,56 @@
+.GreetingsR {
+    background-color: #fdd538;
+}
+
+.profileImg {
+    width: 33%;
+    position: absolute;
+    left: 77%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+
+.Animation {
+    opacity: 0;
+    animation: ani 1s forwards 1s;
+}
+
+@keyframes ani {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .GreetingsR {
+        height: 100vh;
+        background-color: #121212;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .profileImg {
+        width: 75%;
+        left: 50%;
+        top: 75%;
+        width: 60%;
+        left: 50%;
+        top: 80%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .profileImg {
+        width: 75%;
+        width: 50%;
+        left: 50%;
+        top: 75%;
+    }
+}

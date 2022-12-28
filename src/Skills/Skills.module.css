@@ -1,0 +1,109 @@
+.Skills {
+    background-color: black;
+    color: #fff;
+    width: calc(100vw - 60px);
+}
+
+.Particles {
+    width: 100vw;
+    height: 100vh;
+}
+
+.NamePage {
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    font-size: 7vw;
+    position: absolute;
+    left: 83%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    opacity: .3;
+}
+
+.Frontend {
+    left: 30%;
+}
+
+.Backend {
+    left: 75%;
+}
+
+h3 {
+    text-align: center;
+}
+
+.BlockStyles {
+    backdrop-filter: blur(4px);
+    padding: 20px;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 2vw;
+    width: 37%;
+    border: 2px solid #fff;
+    height: 75%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .Skills {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .NamePage {
+        left: 80%;
+        top: 80%;
+    }
+
+    .Frontend {
+        left: 27%;
+    }
+
+    .Backend {
+        left: 72%;
+    }
+
+
+
+    .BlockStyles {
+        backdrop-filter: blur(4px);
+        padding: 20px;
+        font-family: 'Edu SA Beginner', cursive;
+        font-size: 2.5vw;
+        width: 37%;
+        border: 2px solid #fff;
+        height: 60%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .NamePage {
+        left: 80%;
+        top: 95%;
+    }
+
+    .BlockStyles {
+        backdrop-filter: blur(2px);
+        width: 80%;
+        height: 40%;
+        font-size: 4.5vw;
+        font-size: 4vw;
+    }
+
+    .Frontend {
+        top: 31%;
+        left: 50%;
+    }
+
+    .Backend {
+        top: 75%;
+        left: 50%;
+    }
+
+}

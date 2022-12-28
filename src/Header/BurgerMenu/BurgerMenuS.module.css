@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+.Wrapper {
+    position: absolute;
+    top: 35%;
+    left: 85%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    /* height: 20px; */
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.WrapperOpen {
+    position: absolute;
+    top: 15.5%;
+    left: 86.5%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.BurgerList {
+    display: none;
+}
+
+.BurgerListOpen {
+    display: flex;
+    color: white;
+    font-weight: 600;
+    align-items: center;
+    justify-content: baseline;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 35vh;
+    background-color: #302a2a;
+    top: 50px;
+    z-index: 2;
+}
+
+.BurgerListOpen li {
+    margin-right: 30px;
+    height: 7.5vh;
+    width: 70vw;
+    text-align: center;
+    line-height: 50px;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.NavBarLink {
+    text-decoration: none;
+    color: white;
+}
+
+.Bar {
+    height: 5px;
+    background-color: black;
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
+
+.BarOpen {
+    height: 5px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    transition: all .2s ease-in-out;
+}
+
+.TopBar {
+    height: 5px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    transform: translateY(-5px);
+    transition: all .2s ease-in-out;
+}
+
+.TopBarOpen {
+    height: 5px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    transform-origin: 0 50%;
+    margin-bottom: 18px;
+    transform: rotate(45deg);
+    transition: all .2s ease-in-out;
+}
+
+.BottomBar {
+    height: 5px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    transform: translateY(5px);
+    transition: all .2s ease-in-out;
+}
+
+.BottomBarOpen {
+    height: 5px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    transform-origin: 0 50%;
+    transform: rotate(-45deg);
+    transition: all .2s ease-in-out;
+}
+
+@media screen and (max-width: 500px) {
+    .Wrapper {
+        display: flex;
+    }
+
+    .WrapperOpen {
+        display: flex;
+    }
+}
