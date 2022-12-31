@@ -13,7 +13,7 @@ export const App = () => (
 		<div className={styles.container}>
 			<Header />
 			<Routes>
-				<Route path="/" element={[<Hello />, <GreetingsR />]} />
+				<Route path="/whoami" element={[<Hello />, <GreetingsR />]} />
 				<Route path="/About" element={<About />} />
 				<Route path="/Skills" element={<Skills />} />
 				<Route path="/Contact" element={<Contact />} />
