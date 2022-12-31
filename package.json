@@ -4,7 +4,7 @@
 	"homepage": "https://Sakurai-exe.github.io/whoami/",
 	"description": "Portfolio website",
 	"main": "index.js",
-	"repository": "git@github.com:Sakurai-exe/denis-kan-portfolio.git",
+	"repository": "git@github.com:Sakurai-exe/whoami.git",
 	"author": "Sakurai <denblaze@mail.ru>",
 	"license": "MIT",
 	"scripts": {
