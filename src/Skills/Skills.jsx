@@ -11,7 +11,9 @@ const Skills = () => (
 			<ul>
 				<li>HTML & CSS</li>
 				<li>JavaScript</li>
+				<li>TypeScript</li>
 				<li>React & Redux</li>
+				<li>Webpack & Babel</li>
 				<li>Photoshop/Figma</li>
 			</ul>
 		</div>

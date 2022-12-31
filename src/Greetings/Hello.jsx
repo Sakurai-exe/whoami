@@ -18,14 +18,14 @@ const Hello = () => {
 				</animated.div>
 				<div className={styles.MyName}>Denis Kan</div>
 				<div className={styles.Profession}>
-					Web <br />
+					Frontend <br />
 					developer
 				</div>
 				<div className={styles.NearFuture}>in the near future...</div>
 				<div className={`${styles.Quote} ${styles.Animation}`}>
 					Maybe not today, not tomorrow. <br />
 					But someday I'll become a cool <br />
-					Senior developer.
+					developer.
 				</div>
 			</div>
 		</div>

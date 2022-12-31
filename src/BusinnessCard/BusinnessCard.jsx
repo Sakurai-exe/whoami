@@ -8,24 +8,26 @@ const BusinnessCard = () => (
 				<div className={styles.front}>
 					<h1>Denis Kan</h1>
 					<hr />
-					<p>WEB developer</p>
+					<span>WEB developer</span>
 				</div>
 				<div className={styles.back}>
-					<p>
+					<h3>
 						Telephone:
 						<br />
 						+7(985)-561-05-66
-					</p>
-					<p>
+					</h3>
+					<br />
+					<h3>
 						Email:
 						<br />
 						denblaze@mail.ru
-					</p>
-					<p>
+					</h3>
+					<br />
+					<h3>
 						Telegram:
 						<br />
 						@sakuraiexe
-					</p>
+					</h3>
 				</div>
 			</div>
 		</div>

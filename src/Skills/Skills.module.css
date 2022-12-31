@@ -4,10 +4,6 @@
     width: calc(100vw - 60px);
 }
 
-.Particles {
-    width: 100vw;
-    height: 100vh;
-}
 
 .NamePage {
     font-family: 'Alfa Slab One', cursive;
@@ -28,6 +24,8 @@
     left: 75%;
 }
 
+
+
 h3 {
     text-align: center;
 }
@@ -39,12 +37,20 @@ h3 {
     font-size: 2vw;
     width: 37%;
     border: 2px solid #fff;
-    height: 75%;
+    min-height: 75%;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
 }
 
+ul{
+    padding-top: 2vh;
+    padding-left: 4vw;
+}
+ul li {
+    list-style-type: circle;
+    
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -73,9 +79,9 @@ h3 {
         padding: 20px;
         font-family: 'Edu SA Beginner', cursive;
         font-size: 2.5vw;
-        width: 37%;
+        width: 100%;
         border: 2px solid #fff;
-        height: 60%;
+        /* height: 60%; */
         position: absolute;
         top: 50%;
         transform: translate(-50%, -50%);
@@ -83,27 +89,37 @@ h3 {
 }
 
 @media screen and (max-width: 500px) {
+    .Skills{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
     .NamePage {
         left: 80%;
         top: 95%;
     }
 
     .BlockStyles {
+        display:block;
+        position:inherit;
+        margin: 0 auto;
         backdrop-filter: blur(2px);
-        width: 80%;
-        height: 40%;
+        width: 70%;
         font-size: 4.5vw;
-        font-size: 4vw;
+        min-height: 20%;
+            top: 0;
+            transform: translate(0, 0);
     }
 
-    .Frontend {
-        top: 31%;
-        left: 50%;
-    }
-
-    .Backend {
-        top: 75%;
-        left: 50%;
-    }
+        .Frontend {
+            margin-top: 40px;
+            left: 0;
+            /* min-height: 40%; */
+        }
+    
+        .Backend {
+            left: 0;
+            /* min-height: 20%; */
+        }
 
 }

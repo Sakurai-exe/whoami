@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import ContactS from "./Contact.module.css";
+import styles from "./Contact.module.css";
 import BusinnessCard from "../BusinnessCard/BusinnessCard";
 import emailjs from "emailjs-com";
 import tgLogo from "../Images/LogosPNG/tg.png";
@@ -7,7 +7,7 @@ import instLogo from "../Images/LogosPNG/inst.png";
 import vkLogo from "../Images/LogosPNG/vk.png";
 import gitLogo from "../Images/LogosPNG/github.png";
 
-function Contact() {
+const Contact = () => {
 	const form = useRef();
 
 	const sendEmail = e => {
@@ -32,8 +32,8 @@ function Contact() {
 	};
 
 	return (
-		<div className={ContactS.Contact}>
-			<div className={ContactS.Wrapper}>
+		<div className={styles.Contact}>
+			<div className={styles.Wrapper}>
 				<h2>Contact me</h2>
 				<p>
 					If you have other request or question, don’t <br />
@@ -43,11 +43,11 @@ function Contact() {
 					<input type="text" required placeholder="Name" name="name" />
 					<input type="email" required placeholder="Email" name="email" />
 					<input type="text" required placeholder="Subject" name="subject" />
-					<textarea required placeholder="Message" name="message" />
-					<input className={ContactS.FormButton} type="submit" value="Send" />
+					<textarea required placeholder="..." name="message" />
+					<input className={styles.FormButton} type="submit" value="Send" />
 				</form>
 			</div>
-			<div className={ContactS.MobileVisitCard}>
+			<div className={styles.MobileVisitCard}>
 				<h1>Denis Kan</h1>
 				<hr />
 				<p>
@@ -57,8 +57,8 @@ function Contact() {
 					<br />
 					Email: denblaze@mail.ru
 				</p>
-				<div className={ContactS.ContactNav}>
-					<div className={ContactS.logo}>
+				<div className={styles.ContactNav}>
+					<div className={styles.logo}>
 						<a
 							href="https://t.me/sakuraiexe"
 							rel="noopener noreferrer"
@@ -67,7 +67,7 @@ function Contact() {
 							<img src={tgLogo} alt="Telegram" />
 						</a>
 					</div>
-					<div className={ContactS.logo}>
+					<div className={styles.logo}>
 						<a
 							href="https://www.instagram.com/sakuraiexe/"
 							rel="noopener noreferrer"
@@ -80,7 +80,7 @@ function Contact() {
 							/>
 						</a>
 					</div>
-					<div className={ContactS.logo}>
+					<div className={styles.logo}>
 						<a
 							href="https://vk.com/id729849257"
 							rel="noopener noreferrer"
@@ -89,7 +89,7 @@ function Contact() {
 							<img src={vkLogo} alt="VK" />
 						</a>
 					</div>
-					<div className={ContactS.logo}>
+					<div className={styles.logo}>
 						<a
 							href="https://github.com/Sakurai-exe"
 							rel="noopener noreferrer"
@@ -100,11 +100,11 @@ function Contact() {
 					</div>
 				</div>
 			</div>
-			<div className={ContactS.BusinnessCardWrap}>
+			<div className={styles.BusinnessCardWrap}>
 				<BusinnessCard />
 			</div>
 		</div>
 	);
-}
+};
 
 export default Contact;
