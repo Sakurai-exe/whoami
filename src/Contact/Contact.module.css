@@ -198,7 +198,7 @@ textarea:focus {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     .BusinnessCardWrap {
         display: none;
     }
@@ -213,7 +213,7 @@ textarea:focus {
         width: 90vw;
         height: 50vh;
         left: 52%;
-        top: 32%;
+        top: 40%;
     }
 
     h2 {

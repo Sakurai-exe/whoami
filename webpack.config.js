@@ -4,15 +4,17 @@ module.exports = {
 	entry: "./src/index.js",
 	output: {
 		path: path.resolve(__dirname, "./build"),
-		publicPath: "/",
 		filename: "bundle.js",
+		publicPath: "/",
 	},
 	mode: "development",
 	devServer: {
+		historyApiFallback: true,
+		// hot: true,
+		// contentBase: "./",
 		static: {
 			directory: path.resolve(__dirname, "./build"),
 		},
-		historyApiFallback: true,
 	},
 	module: {
 		rules: [
@@ -39,8 +41,23 @@ module.exports = {
 			},
 			{
 				test: /\.(png|svg|jpg|jpeg|gif)$/i,
-				type: "asset/resource",
+				use: [
+					{
+						loader: "url-loader",
+						// options: {
+						// 	limit: 10000,
+						// },
+					},
+				],
 			},
+			// {
+			// 	test: /\.(png|jpe?g|gif|svg)$/i,
+			// 	use: [
+			// 		{
+			// 			loader: "file-loader",
+			// 		},
+			// 	],
+			// },
 		],
 	},
 

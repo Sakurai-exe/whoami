@@ -88,11 +88,11 @@ ul li {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     .Skills{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        /* justify-content: space-around; */
     }
     .NamePage {
         left: 80%;
@@ -112,13 +112,14 @@ ul li {
     }
 
         .Frontend {
-            margin-top: 40px;
+            margin-top: 80px;
             left: 0;
             /* min-height: 40%; */
         }
     
         .Backend {
             left: 0;
+            margin-top: 25px;
             /* min-height: 20%; */
         }
 
